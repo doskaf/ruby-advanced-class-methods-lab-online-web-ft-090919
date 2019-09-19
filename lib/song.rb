@@ -50,8 +50,7 @@ class Song
   end
   
   def self.new_from_filename(filename)
-    filename.chomp(".mp3")
-    x = filename.split(" - ")
+    filename.chomp = x = filename.split(" - ")
     binding.pry
   end
 end
