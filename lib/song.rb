@@ -48,4 +48,10 @@ class Song
       song.name
     end
   end
+  
+  def self.new_from_filename(filename)
+    filename.chomp(".mp3")
+    x = filename.split(" - ")
+    binding.pry
+  end
 end
